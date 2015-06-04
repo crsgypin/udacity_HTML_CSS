@@ -1,0 +1,27 @@
+
+/*
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizeing: border-box;
+	box-sizing: border-box;
+}
+*/
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+
+/** {
+	border: 1px solid red;
+}
+*/
+
+[class*="entypo-"]:before {
+      font-family: 'entypo', sans-serif;
+      font-size: 40px;
+      margin-right:10px;
+      float: left;
+      color: blue;
+}
+
+
